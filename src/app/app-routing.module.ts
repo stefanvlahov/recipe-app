@@ -15,7 +15,7 @@ const appRoutes: Routes = [
       { path: ':idr/edit', component: RecipeEditComponent }
     ] },
   { path: 'shopping-list', component: ShoppingListComponent }
-]
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(appRoutes)],
